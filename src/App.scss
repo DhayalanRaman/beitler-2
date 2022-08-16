@@ -1,0 +1,214 @@
+// @import "~bootstrap/scss/bootstrap";
+
+// bootsrap common styles
+.form-control {
+    border-radius: 2px;
+    box-shadow: none !important;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #212529;
+}
+
+.form-select {
+    border-radius: 0px;
+    box-shadow: none !important;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #212529;
+    // font-size: 13px;
+}
+
+.form-label {
+    font-weight: 550;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.form-label span.required {
+    color: #ff0018;
+}
+
+.modal {
+    z-index: 2000;
+}
+
+.modal-content {
+    border-radius: 0px;
+}
+
+#Add_modal_dc .modal-body {
+    overflow-y: auto;
+    min-height: auto;
+    max-height: 500px;
+}
+
+.modal-header {
+    border-radius: 0px;
+    background: #be1e2d;
+    border: 1px solid #be1e2d;
+    color: #FFFFFF;
+}
+
+.modal-footer {
+    padding: 0px;
+    border-top: 0px;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+}
+
+.accordion-header .accordion-button {
+    background-color: #dbdbdb;
+    color: #000000;
+    font-weight: 550;
+    font-size: 14px;
+    height: 38px;
+}
+
+// .btn-close {
+//     background-image: url("./Assets/x-mark.png");
+//     height: 20px;
+//     width: 20px;
+//     opacity: 1 !important;
+//     background-color: #000000;
+//     // color: #000000;
+// }
+.Toastify__toast-theme--light {
+    background: #008a00 !important;
+    color: #FFFFFF !important;
+}
+
+// material ui table styles
+.tss-djbknv-MUIDataTablePagination-navContainer {
+    justify-content: space-between !important;
+    background-color: #dddddd;
+}
+
+.tss-1fbujeu-MUIDataTableHeadCell-toolButton {
+    width: 100%;
+    margin: auto;
+    font-weight: 700 !important;
+    text-transform: capitalize !important;
+}
+
+.MuiTablePagination-selectLabel,
+.MuiTablePagination-displayedRows {
+    margin-bottom: 0.1rem;
+}
+
+// mui drawer header  styles
+.MuiList-root .MuiList-padding .nav_link .css-h4y409-MuiList-root {
+    background-color: #000000 !important;
+}
+
+.css-1hsz34s-MuiDrawer-docked .MuiDrawer-paper {
+    background-color: #000000 !important;
+}
+
+button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-edgeStart.MuiIconButton-sizeMedium.css-1k6kljs-MuiButtonBase-root-MuiIconButton-root {
+    background: #be1e2d;
+    padding: 20px;
+    border-radius: unset;
+    margin-left: -25px;
+    color: #FFFFFF;
+}
+
+.draw_color .css-i4bv87-MuiSvgIcon-root {
+    color: #FFFFFF !important;
+}
+
+.draw_color {
+    background: #be1e2d;
+    color: #FFFFFF !important;
+    height: 10px;
+}
+
+.tool_col {
+    background: #FFFFFF;
+    max-height: 20px !important;
+}
+
+.nav_name {
+    color: #FFFFFF !important;
+    text-decoration: none !important;
+}
+
+.nav_link {
+    background-color: #000000 !important;
+}
+
+// common styles
+.addPop {
+    color: #3498db !important;
+    border: 0px;
+}
+
+.align_right {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.save_Btn {
+    background-color: #be1e2d;
+    color: #FFFFFF;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px 38px;
+    border: 0px;
+}
+
+.cancel_Btn {
+    background-color: #000000;
+    color: #FFFFFF;
+    margin: 10px;
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px 38px;
+}
+
+.cancel_Btn:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.save_Btn:hover {
+    background-color: #be1e2d;
+    color: #FFFFFF;
+}
+
+.text_area {
+    width: 100%;
+    resize: vertical;
+    min-height: 90px !important;
+    margin-top: 20px;
+}
+
+.dash_img {
+    width: 100%;
+}
+
+.tab_head {
+    background-color: #be1e2d;
+    color: #ffffff;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.logout {
+    text-decoration: none !important;
+    color: #000000 !important;
+}
+
+// .react-datepicker-wrapper {
+//     width: 100%;
+//     border-radius: 0px;
+// }
+
+// .react-datepicker-wrapper input {
+//     padding: 4px 12px;
+// }

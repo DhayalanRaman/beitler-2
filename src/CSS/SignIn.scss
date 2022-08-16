@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login_container {
+  margin-top: 140px;
+  width: 400px;
+  height: 100%;
+  justify-content: center; 
+  align-items: center;
+}  
+
+form {
+  padding: 20px 50px;
+}
+
+div.textField {
+  width: 100%;
+  margin: 6px 5px;
+}
+
+.submit-button {
+  background: #be1e2d;
+  letter-spacing: 2px;
+  width: 100%;
+  line-height: 35px;
+  margin: 9px 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+.error_msg {
+  color: red;
+  display: block;
+  font-size: 12px;
+  margin: 0px;
+  padding-bottom: 0px;  
+}
+
+.labelField {
+  width: 100%;
+  font-size: 16px !important;
+  color: #000000 !important;  
+}
+.truck-img {
+  height: 609px;
+  width: 853px;
+}
+.logo-img {
+  width: 230px;
+  height: 60px;
+}
