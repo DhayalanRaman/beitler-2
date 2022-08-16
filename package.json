@@ -37,7 +37,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "npm install --global npm@latest npm install react-scripts --legacy-peer-deps test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
