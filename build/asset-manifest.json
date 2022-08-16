@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0471b33c.css",
+    "main.js": "/static/js/main.503db3be.js",
+    "static/js/787.93464cef.chunk.js": "/static/js/787.93464cef.chunk.js",
+    "static/media/truck.jpg": "/static/media/truck.0c4f520a41c282cdb5aa.jpg",
+    "static/media/DashBord.jpg": "/static/media/DashBord.a0532764d94602418237.jpg",
+    "index.html": "/index.html",
+    "main.0471b33c.css.map": "/static/css/main.0471b33c.css.map",
+    "main.503db3be.js.map": "/static/js/main.503db3be.js.map",
+    "787.93464cef.chunk.js.map": "/static/js/787.93464cef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0471b33c.css",
+    "static/js/main.503db3be.js"
+  ]
+}
