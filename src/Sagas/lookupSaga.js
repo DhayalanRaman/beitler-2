@@ -23,7 +23,7 @@ function* onLoadLookupStartAsync() {
 }
 
 function* onLoadLookup() {
-    yield takeEvery(types.GET_ORDER_START, onLoadLookupStartAsync)
+    yield takeEvery(types.GET_LOOKUP_START, onLoadLookupStartAsync)
 }
 export function* lookupSaga() {
     yield call(onLoadLookup)
